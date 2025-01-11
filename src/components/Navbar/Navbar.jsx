@@ -12,17 +12,35 @@ const Navbar = () => {
           <img src={Logo} alt="" className="w-48" />
         </div>
         {/* Navlink */}
-        <ul className="hidden md:flex items-center gap-5 md:text-base xl:text-xl">
+        <ul className="hidden md:flex items-center gap-5 md:text-base xl:text-xl relative">
           <li>
-            <Link to="/">Inicio</Link> {/* Cambiar href por Link to */}
+            <Link to="/">Inicio</Link>
+          </li>
+          <li className="relative group">
+            <span className="relative z-10 cursor-pointer">
+              Servicios
+            </span>
+            {/* Menú desplegable */}
+            <ul className="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-lg border rounded-lg py-2 min-w-[220px]">
+              <li className="px-4 py-2 hover:bg-primary transform duration-300">
+                <Link to="/servicios/pension-natural">Pensión de ámbito natural</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-primary transform duration-300">
+                <Link to="/servicios/pension-docentes">Pensión para los docentes</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-primary transform duration-300">
+                <Link to="/servicios/derecho-familia">Derecho de la familia</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-primary transform duration-300">
+                <Link to="/servicios/derecho-administrativo">Derecho administrativo</Link>
+              </li>
+              <li className="px-4 py-2 hover:bg-primary transform duration-300">
+                <Link to="/servicios/fuerza-publica">Pensiones de fuerza pública</Link>
+              </li>
+            </ul>
           </li>
           <li>
-            <Link to="/servicios">Servicios</Link>{" "}
-            {/* Crear una ruta ficticia */}
-          </li>
-          <li>
-            <Link to="/contacto">Contacto</Link>{" "}
-            {/* Cambiar href por Link to */}
+            <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
         {/* Button */}
