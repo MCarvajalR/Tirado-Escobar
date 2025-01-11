@@ -1,12 +1,29 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import HeroTirado from "../../../assets/Hero.png";
+import img1 from "../../../assets/divorcio.jpg";
+import img2 from "../../../assets/herencia.jpg";
+import img3 from "../../../assets/interdiccion.jpg";
+import img4 from "../../../assets/negacion.jpg";
+import img5 from "../../../assets/alimentos.jpg";
+import img6 from "../../../assets/Capitulaciones.jpg"
+import img7 from "../../../assets/custodia.jpg";
+import img8 from "../../../assets/patria.png";
 import { motion } from "framer-motion";
-import { SlideLeft } from "../../../utility/animation";
+import { SlideDown, SlideLeft } from "../../../utility/animation";
 
 const Hero = () => {
   return (
     <section>
+      <div className="rounded-3x1 flex justify-center container">
+        <motion.h1
+          variants={SlideDown(0.3)}
+          initial="initial"
+          whileInView="animate"
+          className="rounded-3xl text-5xl font-bold text-green-900 min-w-[650px] min-h-[52px] text-center"
+        >
+          Derecho de la Familia
+        </motion.h1>
+      </div>
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -63,7 +80,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img1} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -73,7 +90,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img2} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -155,7 +172,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img3} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -166,7 +183,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img4} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -220,7 +237,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img5} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -230,7 +247,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img6} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -281,21 +298,21 @@ const Hero = () => {
               asumirla directamente sus padres. En situaciones, en las que los padres
               ya no conviven juntos es necesario llegar a un acuerdo respecto de quien
               estará a cargo del menor, puede darse la figura de una custodia compartida
-              o bien recaer en cabeza de uno de los padres, sin que esto implique la pérdida del 
+              o bien recaer en cabeza de uno de los padres, sin que esto implique la pérdida del
               contacto del otro padre con su hijo menor.
             </motion.p>
           </div>
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img7} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
       {/*Octava seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img8} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -314,8 +331,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Ante el maltrato físico o psicológico u otras de las tantas causales que enumera 
-              la ley, uno de los padres puede solicitar que el otro pierda la patria potestad 
+              Ante el maltrato físico o psicológico u otras de las tantas causales que enumera
+              la ley, uno de los padres puede solicitar que el otro pierda la patria potestad
               del hijo, para lo cual es necesario adelantar proceso ante el juez de familia.
             </motion.p>
           </div>

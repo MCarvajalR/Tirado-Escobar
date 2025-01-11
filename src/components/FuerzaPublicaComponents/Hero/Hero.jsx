@@ -1,12 +1,29 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import HeroTirado from "../../../assets/Hero.png";
+import img1 from "../../../assets/subsidio.jpg";
+import img2 from "../../../assets/uniformados.jpg";
+import img3 from "../../../assets/soldado.jpg";
+import img4 from "../../../assets/servicioMilitar.jpg";
+import img5 from "../../../assets/disciplinario.jpg";
+import img6 from "../../../assets/ipc.jpg";
+import img7 from "../../../assets/nulidad.jpg";
 import { motion } from "framer-motion";
-import { SlideLeft } from "../../../utility/animation";
+import { SlideDown, SlideLeft } from "../../../utility/animation";
 
 const Hero = () => {
   return (
     <section>
+      <div className="rounded-3x1 flex justify-center container">
+        <motion.h1
+          variants={SlideDown(0.3)}
+          initial="initial"
+          whileInView="animate"
+          className="rounded-3xl text-5xl font-bold text-green-900 min-w-[650px] min-h-[52px] text-center"
+        >
+          Derecho de Fuerza Pública
+        </motion.h1>
+      </div>
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -35,7 +52,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img1} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -45,7 +62,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img2} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -104,7 +121,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img3} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -115,7 +132,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img4} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -178,7 +195,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img5} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -188,7 +205,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img6} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -245,7 +262,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img7} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
     </section>

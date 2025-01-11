@@ -1,12 +1,26 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import HeroTirado from "../../../assets/Hero.png";
+import img1 from "../../../assets/carreteraDañada.jpg"
+import img2 from "../../../assets/estado.jpg"
+import img3 from "../../../assets/prisionero.jpg"
+import img4 from "../../../assets/medico.jpg"
 import { motion } from "framer-motion";
-import { SlideLeft } from "../../../utility/animation";
+import { SlideDown, SlideLeft } from "../../../utility/animation";
 
 const Hero = () => {
   return (
     <section>
+      <div className="rounded-3x1 flex justify-center container">
+        <motion.h1
+          variants={SlideDown(0.3)}
+          initial="initial"
+          whileInView="animate"
+          className="rounded-3xl text-5xl font-bold text-green-900 min-w-[650px] min-h-[52px] text-center"
+        >
+          Derecho Administrativo
+        </motion.h1>
+      </div>
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -34,7 +48,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img1} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -44,7 +58,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img2} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -147,7 +161,7 @@ const Hero = () => {
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img3} alt="" className="w-full rounded-3xl"/>
         </div>
       </div>
 
@@ -158,7 +172,7 @@ const Hero = () => {
 
         {/*Image section*/}
         <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
+          <img src={img4} alt="" className="w-full rounded-3xl"/>
         </div>
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -187,8 +201,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              1. Daño emergente: Son los gastos en que incurre la persona afectada para reparar 
-              el daño causado por la negligencia o la impericia médica. Se incluyen dentro de 
+              1. Daño emergente: Son los gastos en que incurre la persona afectada para reparar
+              el daño causado por la negligencia o la impericia médica. Se incluyen dentro de
               este concepto pago de facturas, gastos de transporte, adquisición de equipos y medicinas, etc.
             </motion.p>
             <motion.p
@@ -197,8 +211,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              2. Lucro cesante: Son los ingresos económicos  que deja de percibir la persona que sufre un daño 
-              por no poder realizar una determinada actividad de la cual se lucra. Sufre lucro cesante quien deja de 
+              2. Lucro cesante: Son los ingresos económicos  que deja de percibir la persona que sufre un daño
+              por no poder realizar una determinada actividad de la cual se lucra. Sufre lucro cesante quien deja de
               realizar una actividad que le produce ingresos y ha cesado en tal actividad por razón del daño causado.
             </motion.p>
             <motion.p
@@ -207,7 +221,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              3. Daño moral subjetivo: Es el dolor interno que sufre la persona por razón de la ocurrencia del 
+              3. Daño moral subjetivo: Es el dolor interno que sufre la persona por razón de la ocurrencia del
               hecho que causa el daño y por el daño mismo. Se calcula en gramos oro y en salarios minimos legales mensuales.
             </motion.p>
             <motion.p
@@ -216,7 +230,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              4. Daño a la vida de relación: Es la imposibilidad, por razón del daño, de relacionarse en la misma 
+              4. Daño a la vida de relación: Es la imposibilidad, por razón del daño, de relacionarse en la misma
               forma en que lo podría hacer de no haber ocurrido el hecho, tanto con el entorno como con los seres queridos y la sociedad.
             </motion.p>
           </div>
