@@ -8,6 +8,11 @@ import Uses from "./components/HomeComponents/Uses/Uses";
 import Trust from "./components/HomeComponents/Trust/Trust";
 import Footer from "./components/Footer/Footer";
 import Contact from "./Contact"; // Página de contacto (añade esta ruta)
+import Natural from "./Natural";
+import Administrativo from "./Administrativo";
+import Docente from "./Docente";
+import Familiar from "./Familiar";
+import FuerzaPublica from "./FuerzaPublica";
 
 const App = () => {
   return (
@@ -29,6 +34,11 @@ const App = () => {
         />
         {/* Ruta para la página de contacto */}
         <Route path="/contacto" element={<Contact />} />
+        <Route path="/natural" element={<Natural />} />
+        <Route path="/administrativo" element={<Administrativo />} />
+        <Route path="/docentes" element={<Docente />} />
+        <Route path="/familiar" element={<Familiar />} />
+        <Route path="/fuerzaPublica" element={<FuerzaPublica />} />
         {/* Puedes añadir más rutas según necesites */}
       </Routes>
     </Router>
