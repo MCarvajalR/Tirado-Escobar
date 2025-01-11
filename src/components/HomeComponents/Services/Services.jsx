@@ -43,6 +43,7 @@ const Services = () => {
                 icon={Icon1}
                 heading="Pensión de ámbito natural"
                 text="Consultar"
+                link="/natural"
               />
             </motion.div>
             <motion.div
@@ -54,6 +55,7 @@ const Services = () => {
                 icon={Icon2}
                 heading="Pensión para los docentes"
                 text="Consultar"
+                link="/docentes"
               />
             </motion.div>
             <motion.div
@@ -65,6 +67,7 @@ const Services = () => {
                 icon={Icon3}
                 heading="Derecho de la familia"
                 text="Consultar"
+                link="/familiar"
               />
             </motion.div>
             <motion.div
@@ -76,6 +79,7 @@ const Services = () => {
                 icon={Icon4}
                 heading="Derecho Administrativo"
                 text="Consultar"
+                link="/administrativo"
               />
             </motion.div>
             <motion.div
@@ -87,6 +91,7 @@ const Services = () => {
                 icon={Icon5}
                 heading="Pensiones de Fuerza Pública"
                 text="Consultar"
+                link="/fuerzaPublica"
               />
             </motion.div>
           </div>

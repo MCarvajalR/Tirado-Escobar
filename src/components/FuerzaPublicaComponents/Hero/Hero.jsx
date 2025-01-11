@@ -17,7 +17,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Pensiones Negadas
+              Subsidio Familiar.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -25,11 +25,11 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Tiene derecho a reclamar retroactivo cualquiera de los anteriores
+              si recibía dicho subsidio a septiembre de 2009 y por arbitrariedad del estado suspendió el pago
+              de los mismos. Soldados profesionales e infantes de marina profesionales, que
+              siendo miembros activos no se les ha reconocido pago, teniendo compañera permanente
+              o esposa después del 27 de julio del 2014.
             </motion.p>
           </div>
         </div>
@@ -39,10 +39,10 @@ const Hero = () => {
         </div>
       </div>
 
-{/*Segunda seccion*/}
+      {/*Segunda seccion*/}
 
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
+
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
@@ -56,7 +56,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Incremento de Pensión
+              Responsabilidad Administrativa.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -64,18 +64,16 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              El personal civil e incluso los miembros activos y en retiro de la Fuerza Publica,
+              que por cualquier hecho, acto u omisión del personal de uniformados de la policía, ejercito,
+              armada nacional o fuerza aérea, se viera afectados, por violación a derechos fundamentales,
+              detrimento patrimonial, o perjuicios morales.
             </motion.p>
           </div>
         </div>
       </div>
 
-{/*Tercera seccion*/}
+      {/*Tercera seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -86,7 +84,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Reliquidación de la Pensión
+              Pensiones Negadas.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -94,11 +92,13 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Suele ocurrir que al fallecer un miembro de la fuerza publica, a sus hijos,
+              esposos o compañeros permanentes le sea negado el derecho a recibir pensión de sobreviviente,
+              tan solo es necesario que el beneficiario demuestre que agente cotizo 50 semanas en los
+              últimos tres años, si es así, pueden acceder a este derecho. Existen causales por medio de las
+              cuales, las respectivas cajas de retiro CREMIL Y CASUR, indican el miembro en prospecto de retiro no
+              posee derecho a una asignación de retiro, es de aclarar que cada caso es diferente, pero podemos
+              revisar su caso y orientarlo a la satisfacción de sus necesidades de la menor manera.
             </motion.p>
           </div>
         </div>
@@ -109,10 +109,10 @@ const Hero = () => {
       </div>
 
 
-{/*cuarta seccion*/}
+      {/*cuarta seccion*/}
 
-<div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
@@ -126,7 +126,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Retroactivo Pensional e Intereses Moratorios
+              Beneficios por prestar Servicio Militar.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -134,18 +134,20 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              Cualquier Colombiano que prestara servicio militar, en el ejército, armada,
+              policía, fuerza aérea o IMPEC, tiene derecho que después de haber prestado el servicio
+              militar, y se hubiese vinculado a una entidad del estado, tiene derecho a pelear el reconocimiento
+              del tiempo que presto servicio para el pago de sus cesantías, y para su respectivo bono pensional al
+              fondo al cual este cotizando para pensión. Cualquier persona que prestando el servicio militar o en la
+              escuela de formación castrense de oficiales, suboficiales o nivel ejecutivo en el caso de la policía,
+              y resultase lesionado, o con deterioro en su capacidad laboral en razón al servicio militar, tiene
+              derecho a ser indemnizado y pelear reconocimientos monetarios.
             </motion.p>
           </div>
         </div>
       </div>
 
-{/*quinta seccion*/}
+      {/*quinta seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -156,7 +158,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Traslado de régimen
+              Procesos Disciplinarios.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -164,11 +166,13 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              El proceso disciplinario es aquel que realiza el estado en virtud
+              del poder punitivo que sobre el recae, respecto de las actuaciones particulares
+              de cada miembro en hechos que puedan ser considerados como punibles,
+              que tienen como fin, la sanción en dinero y/o la desvinculación de la
+              institución respectiva, nuestra oficina cuenta con los profesionales
+              idóneos para realizar la defensa técnica judicial requerida para salvaguardar
+              sus derechos y velar por el debido proceso que se le debe seguir.
             </motion.p>
           </div>
         </div>
@@ -178,10 +182,10 @@ const Hero = () => {
         </div>
       </div>
 
-{/*sexta seccion*/}
+      {/*sexta seccion*/}
 
-<div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
@@ -195,7 +199,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Colombianos en el Exterior
+              IPC.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -203,18 +207,17 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              Todo miembro de las fuerzas publica, ejercito, armada, policía, fuerza aérea,
+              que se hubiese retirado antes del 31 de diciembre de 2004, tiene derecho a un
+              reajuste de su asignación de retiro, y al pago de un dinero por concepto de
+              retroactivo, que variaría de acuerdo con el grado que ostente, este derecho lo
+              tienen solo quienes gocen de asignación de retiro a la fecha indicada.
             </motion.p>
           </div>
         </div>
       </div>
 
-{/*septima seccion*/}
+      {/*septima seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -225,7 +228,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Proyecte su pensión
+              Nulidad y Restablecimiento del Derecho.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -233,11 +236,10 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Si por alguna razón es desvinculado por ser llamado a calificar servicios, y considera que esta
+              fue de manera injusta, tiene derecho a demandar y solicitar el reintegro a la institución, además
+              de pedir las indemnizaciones respectivas a las que hubiere lugar y el retroactivo que se formara
+              en el tiempo de litigio de sus derechos.
             </motion.p>
           </div>
         </div>

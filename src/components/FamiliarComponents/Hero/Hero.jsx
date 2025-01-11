@@ -17,7 +17,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Pensiones Negadas
+              Divorcios.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -25,11 +25,39 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              El divorcio se da entre dos personas que contrajeron matrimonio,
+              ya sea por los ritos de la iglesia católica o bien por lo civil y desean terminar con éste.
+            </motion.p>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              El divorcio puede adelantarse por notaria y/o juzgado cuando hay común acuerdo
+              entre las partes, pero cuando las partes están en desacuerdo debe hacerse por
+              juzgado invocando una de las causales contempladas en la ley.
+            </motion.p>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              Dentro del divorcio se solicita además la liquidación de la sociedad conyugal,
+              bien sea que existan bienes o no al momento de practicarla.
+            </motion.p>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              En el caso de las personas que conviven en unión libre no es viable adelantar
+              trámites de divorcio, ni tampoco es necesario excepto hayan bienes por liquidar,
+              pero entonces no estaríamos frente a un divorcio, se trataría de una liquidación
+              de sociedad patrimonial, para lo cual debe solicitarse previamente la declaración
+              de la unión marital de hecho ante el juez de familia.
             </motion.p>
           </div>
         </div>
@@ -39,10 +67,10 @@ const Hero = () => {
         </div>
       </div>
 
-{/*Segunda seccion*/}
+      {/*Segunda seccion*/}
 
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
+
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
@@ -56,7 +84,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Incremento de Pensión
+              Sucesiones.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -64,88 +92,34 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              La sucesión de la herencia puede ser testada o intestada, la primera se da cuando
+              el difunto ha dejado un testamento en el que estipula como quiere que sean repartidos
+              sus bienes, y la segunda cuando no hay testamento.
             </motion.p>
-          </div>
-        </div>
-      </div>
-
-{/*Tercera seccion*/}
-      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        {/*Text section*/}
-        <div className="flex flex-col justify-center">
-          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
-            <motion.h1
-              variants={SlideLeft(0.3)}
-              initial="initial"
-              whileInView="animate"
-              className="text-5xl font-bold text-green-900"
-            >
-              Reliquidación de la Pensión
-            </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
               initial="initial"
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Se abre la sucesión de los bienes, a partir de la muerte y el proceso se
+              debe seguir en el último domicilio del causante.
             </motion.p>
-          </div>
-        </div>
-        {/*Image section*/}
-        <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
-        </div>
-      </div>
-
-
-{/*cuarta seccion*/}
-
-<div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
-        {/*Image section*/}
-        <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
-        </div>
-        {/*Text section*/}
-        <div className="flex flex-col justify-center">
-          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
-            <motion.h1
-              variants={SlideLeft(0.3)}
-              initial="initial"
-              whileInView="animate"
-              className="text-5xl font-bold text-green-900"
-            >
-              Retroactivo Pensional e Intereses Moratorios
-            </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
               initial="initial"
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              Se puede hacer por notaria: cuando todos los herederos están de acuerdo en su
+              realización y partición de los bienes del fallecido o por juzgado cuando no hay acuerdo
+              entre los herederos del fallecido, en cuanto a la repartición de los bienes de éste.
             </motion.p>
           </div>
         </div>
       </div>
 
-{/*quinta seccion*/}
+      {/*Tercera seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -156,7 +130,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Traslado de régimen
+              Interdicción.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -164,11 +138,18 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Es un proceso que se adelanta ante el Juez de familia, en el que se solicita
+              que se declare interdicto a una persona que por una situación de enfermedad mental
+              no puede cuidarse, ni hacerse cargo de sus propios negocios.
+            </motion.p>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              Los procesos de interdicción usualmente se adelantan en los casos que el interdicto
+              es beneficiario de una pensión o va a heredar bienes.
             </motion.p>
           </div>
         </div>
@@ -178,10 +159,11 @@ const Hero = () => {
         </div>
       </div>
 
-{/*sexta seccion*/}
 
-<div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        
+      {/*cuarta seccion*/}
+
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
@@ -195,7 +177,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Colombianos en el Exterior
+              Demanda de filiación.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -203,18 +185,14 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+              Este proceso se refiere a los hijos que aseguran serlo de un determinado padre
+              sin que éste acepte darles el apellido.
             </motion.p>
           </div>
         </div>
       </div>
 
-{/*septima seccion*/}
+      {/*quinta seccion*/}
       <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
         {/*Text section*/}
         <div className="flex flex-col justify-center">
@@ -225,7 +203,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Proyecte su pensión
+              Demanda de alimentos.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -233,17 +211,114 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              En este proceso se trata el sostenimiento integral de un hijo (a) menor o siendo
+              mayor de edad pero menor de 25 años se encuentre estudiando. El
+              demandado es el padre o madre que se rehúsa a cumplir con sus obligaciones económicas
+              respecto del hijo (a).
             </motion.p>
           </div>
         </div>
         {/*Image section*/}
         <div className="flex flex-col justify-center">
           <img src={HeroTirado} alt="" />
+        </div>
+      </div>
+
+      {/*sexta seccion*/}
+
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+
+        {/*Image section*/}
+        <div className="flex flex-col justify-center">
+          <img src={HeroTirado} alt="" />
+        </div>
+        {/*Text section*/}
+        <div className="flex flex-col justify-center">
+          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
+            <motion.h1
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-5xl font-bold text-green-900"
+            >
+              Capitulaciones
+            </motion.h1>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              Son las que se celebran antes de contraer matrimonio civil o religioso,
+              con el fin de proteger los bienes que se tengan o adquieran con posterioridad
+              al matrimonio, con esta figura se evita adelantar trámites de separaciones
+              de bienes, en caso de divorcio.
+            </motion.p>
+          </div>
+        </div>
+      </div>
+
+      {/*septima seccion*/}
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+        {/*Text section*/}
+        <div className="flex flex-col justify-center">
+          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
+            <motion.h1
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-5xl font-bold text-green-900"
+            >
+              Custodia.
+            </motion.h1>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              De conformidad con la Ley, la custodia de los menores deben
+              asumirla directamente sus padres. En situaciones, en las que los padres
+              ya no conviven juntos es necesario llegar a un acuerdo respecto de quien
+              estará a cargo del menor, puede darse la figura de una custodia compartida
+              o bien recaer en cabeza de uno de los padres, sin que esto implique la pérdida del 
+              contacto del otro padre con su hijo menor.
+            </motion.p>
+          </div>
+        </div>
+        {/*Image section*/}
+        <div className="flex flex-col justify-center">
+          <img src={HeroTirado} alt="" />
+        </div>
+      </div>
+      {/*Octava seccion*/}
+      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
+        {/*Image section*/}
+        <div className="flex flex-col justify-center">
+          <img src={HeroTirado} alt="" />
+        </div>
+        {/*Text section*/}
+        <div className="flex flex-col justify-center">
+          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
+            <motion.h1
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-5xl font-bold text-green-900"
+            >
+              Perdida de la patria potestad.
+            </motion.h1>
+            <motion.p
+              variants={SlideLeft(0.3)}
+              initial="initial"
+              whileInView="animate"
+              className="text-lg text-gray-400 mt-4"
+            >
+              Ante el maltrato físico o psicológico u otras de las tantas causales que enumera 
+              la ley, uno de los padres puede solicitar que el otro pierda la patria potestad 
+              del hijo, para lo cual es necesario adelantar proceso ante el juez de familia.
+            </motion.p>
+          </div>
         </div>
       </div>
     </section>

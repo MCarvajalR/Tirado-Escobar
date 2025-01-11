@@ -17,7 +17,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Pensiones Negadas
+              Pensión Gracia.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -25,11 +25,11 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              A ésta prestación, tiene derecho los maestros que cumplan cincuenta (50) años de edad,
+              veinte (20) años de servicio en la docencia oficial territorial (vinculación municipal, 
+              departamental, distrital o nacionalizada). El docente debe cumplir con los dos requisitos 
+              mencionados antes del 31 de diciembre de 1989.  Se debe demostrar también buena conducta 
+              durante el tiempo de servicios.
             </motion.p>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Incremento de Pensión
+              Pensión Jubilación.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -64,12 +64,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+            Prestación a que tienen derecho los docentes que cumplan 20 años de servicio, 
+            bien como docentes y/o en entidades del estado y 55 años de edad.
             </motion.p>
           </div>
         </div>
@@ -86,7 +82,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Reliquidación de la Pensión
+              Reliquidación de la Pensión Gracia y Jubilación por factores salariales.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -94,11 +90,9 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Todos los factores salariales, tales como primas, sobresueldo, horas extras, etc., 
+              devengados dentro del año inmediatamente anterior a la fecha de adquirir el derecho 
+              a la pensión, deben ser tenidos en cuenta para la liquidación de la mesada pensional.
             </motion.p>
           </div>
         </div>
@@ -126,7 +120,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Retroactivo Pensional e Intereses Moratorios
+              Pensión invalidez docentes.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -134,12 +128,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+            El docente que sea calificado con una pérdida de capacidad laboral igual o superior al 
+            cincuenta por ciento (50%), tiene derecho al reconocimiento de esta prestación.
             </motion.p>
           </div>
         </div>
@@ -156,7 +146,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Traslado de régimen
+              Pensión de sobreviviente.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -164,11 +154,8 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
+              Los beneficiarios de un docente que fallezca, habiendo laborado más de cincuenta (50) semanas, 
+              tienen derecho a reclamar esta prestación.
             </motion.p>
           </div>
         </div>
@@ -195,7 +182,7 @@ const Hero = () => {
               whileInView="animate"
               className="text-5xl font-bold text-green-900"
             >
-              Colombianos en el Exterior
+              Sanción moratoria en el pago de cesantías.
             </motion.h1>
             <motion.p
               variants={SlideLeft(0.3)}
@@ -203,47 +190,11 @@ const Hero = () => {
               whileInView="animate"
               className="text-lg text-gray-400 mt-4"
             >
-            Los Pensionados por vejez de Colpensiones, pueden incrementar su pensión en un 14% por esposa 
-            o compañera permanente, en un 7% por cada hijo hasta los 16 años de edad o hasta los 18 si es 
-            estudiante y por hijos declarados inválidos, siempre que éstos dependan económicamente del pensionado, 
-            es decir que no estén laborando ni sean pensionados.
-            Pensionados por invalidez de origen común, también tienen derecho a este beneficio, siempre que su 
-            pensión se haya causado antes de 1994.
+            El docente, tiene derecho al pago de una indemnización moratoria, 
+            cuando haya demora en el pago de las cesantías parciales o definitivas, 
+            de más de 60 días hábiles desde la solicitud.
             </motion.p>
           </div>
-        </div>
-      </div>
-
-{/*septima seccion*/}
-      <div className="bg-brandWhite rounded-3xl container grid grid-cols-1 md:grid-cols-2 gap-6 min-h-[650px]">
-        {/*Text section*/}
-        <div className="flex flex-col justify-center">
-          <div className="mt-24 mb-10 md:mt-0 md:mb-0 space-y-6 text-center md:text-left">
-            <motion.h1
-              variants={SlideLeft(0.3)}
-              initial="initial"
-              whileInView="animate"
-              className="text-5xl font-bold text-green-900"
-            >
-              Proyecte su pensión
-            </motion.h1>
-            <motion.p
-              variants={SlideLeft(0.3)}
-              initial="initial"
-              whileInView="animate"
-              className="text-lg text-gray-400 mt-4"
-            >
-              Le negaron la pensión de vejez, invalidez o sobreviviente? No
-              importa cuántos años hayan pasado, aún podemos revisar su caso y
-              determinar si tiene el derecho. Nuestra experiencia nos demuestra
-              que el 75% de las pensiones que fueron negadas si se tenía el
-              derecho a ellas.
-            </motion.p>
-          </div>
-        </div>
-        {/*Image section*/}
-        <div className="flex flex-col justify-center">
-          <img src={HeroTirado} alt="" />
         </div>
       </div>
     </section>
