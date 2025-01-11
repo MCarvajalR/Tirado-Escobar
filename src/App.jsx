@@ -6,7 +6,7 @@ import Hero from "./components/HomeComponents/Hero/Hero";
 import Services from "./components/HomeComponents/Services/Services";
 import Uses from "./components/HomeComponents/Uses/Uses";
 import Trust from "./components/HomeComponents/Trust/Trust";
-import Footer from "./components/HomeComponents/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Contact from "./Contact"; // Página de contacto (añade esta ruta)
 
 const App = () => {
