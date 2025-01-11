@@ -27,8 +27,9 @@ const Footer = () => {
         {/*Copyright */}
         <div className="bg-gray-900 text-center py-4">
           <p className="text-sm text-gray-400 flex text-center justify-center">
-            &copy; {new Date().getFullYear()} Vyntra Orbit Group <IoPlanet />.
-            Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Tirado Escobar & Abogados. Todos
+            los derechos reservados. <br />
+            Designed by Vyntra Orbit Group
           </p>
         </div>
       </motion.footer>
